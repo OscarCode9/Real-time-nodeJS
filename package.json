@@ -1,0 +1,23 @@
+{
+  "name": "instaws",
+  "version": "1.0.0",
+  "description": "Tiempo real con web sockets",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard",
+    "start": "node server.js"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-eslint": "^6.0.4",
+    "standard": "^7.1.2"
+  },
+  "dependencies": {
+    "rethinkdb": "^2.3.2",
+    "socket.io": "^1.4.8"
+  }
+}
